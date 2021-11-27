@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(88, 88, 86);;
+    font-family:sans-serif;
+  font-weight: bold;
+    
+}
+h1{
+
+    color: indigo;
+    background-color:rgba(241, 235, 235, 0.561);
+    border: 8px solid black;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    box-shadow:8px 5px 6px 7px rgb(44, 124, 103);
+
+}

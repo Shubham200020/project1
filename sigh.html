@@ -1,0 +1,82 @@
+<title>log.in</title>
+<link rel="icon"href="sym.jpg"
+<header>
+    
+<style>
+    body{
+        font-family:Georgia, serif ;
+        font-size: 4pxl;
+        background-color: rgb(131, 146, 131);
+       
+    }
+    sd{
+        text-align: center;
+    }
+    .sk{
+        width: 480pxl;
+        color:saddlebrown;
+        max-width: 90%;
+        margin:0 auto ;
+        text-size-adjust: 55pxl;
+    }
+    .sk label{
+        display: block;
+        margin: 5em 7em;
+        padding:0em 0em;
+        border: saddlebrown;
+    }
+    .sk label input{
+        font-size: 80pxl;
+        padding: 0.8em 7.9em;
+        margin: auto;
+        width: 50%;
+        border: 5px solid rgb(218, 207, 207);
+    }
+    .formerror{
+        color: #ff0000;
+        background-color: rgb(131, 146, 131);
+        block-size: auto;
+        border:black;
+
+    }
+   
+    
+</style>
+<h1><col>ArT RoKEz</h1>
+<form action="D:\programs in window\log.php" name="myForm" onsubmit="return validateForm() "method="post">
+    <div class="sk" id="name">
+        <label >
+        Name:<input type="text" size="30" name="name" placeholder="Enter Your Name" >
+        <span class="formerror"></span>
+    
+     <br>
+    
+     <div class="sk">
+            Email:<input type="email" name="myEmil" placeholder="Enter Email id"  >
+            <span class="formerror"></span><br></div>
+
+            <div class="sk">
+            Phone:<input type="phone" name="fphone" placeholder="Phone no">
+        </div>
+
+       <br> <div class="but"><input type="submit"name="submit"></div>
+    </label>
+    
+    <script>
+        function seterror(id,error)
+        {
+
+        }
+        function validateForm()
+        {
+            var namel=document.forms['myForm']["fname"].value;
+            console.log(namel);
+            return false;
+        }
+    
+   </script>
+ 
+    </header>
+    
+    
+</form>

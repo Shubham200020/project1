@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(46, 44, 44);
+    font-size: large;
+    background-image: url("D:\Drowing\Untitled.jpg");
+    margin: 0%;
+    padding: 0;
+  
+    
+}
+ul{
+    margin:0;
+    padding: 0;
+    background-color:black;
+    width: 30px;
+    display: ;
+    overflow: hidden;
+}
+ima{
+    font-weight: 100;
+    display: flex;
+    overflow: hidden;
+margin: 0;
+padding: 0;
+
+}
+ima input{
+    
+    background-image: url("D:\Drowing\Untitled.jpg");
+}
+slide{
+    width: 70%;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+}
