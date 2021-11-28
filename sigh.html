@@ -1,82 +1,59 @@
-<title>log.in</title>
-<link rel="icon"href="sym.jpg"
-<header>
-    
-<style>
-    body{
-        font-family:Georgia, serif ;
-        font-size: 4pxl;
-        background-color: rgb(131, 146, 131);
-       
-    }
-    sd{
-        text-align: center;
-    }
-    .sk{
-        width: 480pxl;
-        color:saddlebrown;
-        max-width: 90%;
-        margin:0 auto ;
-        text-size-adjust: 55pxl;
-    }
-    .sk label{
-        display: block;
-        margin: 5em 7em;
-        padding:0em 0em;
-        border: saddlebrown;
-    }
-    .sk label input{
-        font-size: 80pxl;
-        padding: 0.8em 7.9em;
-        margin: auto;
-        width: 50%;
-        border: 5px solid rgb(218, 207, 207);
-    }
-    .formerror{
-        color: #ff0000;
-        background-color: rgb(131, 146, 131);
-        block-size: auto;
-        border:black;
-
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigh In Art Roke</title>
+</head>
+<body>
+    <h1>Sigh In Art ROKEZ</h1>
+    <link rel="stylesheet" href="ds.css">
+    <form>
+        <table>
+     <tr>
+         <label for="nam1">
+         <td>Name:</td>
+         <td>
+           <input type="text" name="name1" id="nam1" placeholder="Enter Your name">
+         </td>
+        </label>
+     </tr>
+     <tr>
+        
+         <td>
+             Email:
+         </td>
+         <td> <input type="email" name="eml1" id="emm" placeholder="Enter your Email"> </td>
+        
+     </tr>
+     <tr>
+         <td>
+             Gender:
+         </td>
+         
+         <td>
+             <label for="Male1">
+           
+             <input type="radio" name="Gender" id="Male1" value="Male">Male
+            </label>
+            <label for="Female1">
+             <input type="radio" name="Gender" id="Female1" value="Female">Female
+            </label>
+            <label for="oth">
+             <input type="radio" name="Gender" id="oth">Other
+            </label>
+         </td>
    
-    
-</style>
-<h1><col>ArT RoKEz</h1>
-<form action="D:\programs in window\log.php" name="myForm" onsubmit="return validateForm() "method="post">
-    <div class="sk" id="name">
-        <label >
-        Name:<input type="text" size="30" name="name" placeholder="Enter Your Name" >
-        <span class="formerror"></span>
-    
-     <br>
-    
-     <div class="sk">
-            Email:<input type="email" name="myEmil" placeholder="Enter Email id"  >
-            <span class="formerror"></span><br></div>
 
-            <div class="sk">
-            Phone:<input type="phone" name="fphone" placeholder="Phone no">
-        </div>
-
-       <br> <div class="but"><input type="submit"name="submit"></div>
-    </label>
-    
-    <script>
-        function seterror(id,error)
-        {
-
-        }
-        function validateForm()
-        {
-            var namel=document.forms['myForm']["fname"].value;
-            console.log(namel);
-            return false;
-        }
-    
-   </script>
- 
-    </header>
-    
-    
-</form>
+     </tr>
+     <tr>
+         <Td>Age:</Td>
+         <td>
+             <input type="number" name="ph1" id="ph" placeholder="Enter Your Age">
+         </td>
+     </tr>
+    </table>
+    </form>
+</body>
+</html>
